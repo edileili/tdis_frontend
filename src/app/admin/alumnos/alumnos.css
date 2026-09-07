@@ -13,23 +13,8 @@
     padding: 0.5rem;
 }
 
-.table-title-area {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: 700;
-    color: #1e293b;
-}
-
-.table-title-icon {
-    color: #f59e0b;
-}
-
-.table-subtitle {
-    font-size: 0.75rem;
-    color: #94a3b8;
-}
-
+/*REVISIÓN*/
+/*¿Esta clase para qué es?*/
 ::v-deep .custom-table .p-datatable-thead>tr>th {
     background-color: #f8fafc !important;
     color: #64748b !important;
@@ -55,25 +40,6 @@
 .cell-tdis {
     font-weight: 700;
     color: #0097a7;
-}
-
-.cell-reward {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #475569;
-    font-size: 0.875rem;
-}
-
-.reward-icon {
-    color: #00bcd4;
-}
-
-.current-level-tag {
-    font-size: 0.7rem;
-    background-color: #00bcd4 !important;
-    color: #ffffff !important;
-    border: none;
 }
 
 .search-input-wrapper {

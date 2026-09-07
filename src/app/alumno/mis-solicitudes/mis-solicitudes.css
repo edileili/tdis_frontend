@@ -59,18 +59,6 @@
     padding: 1.75rem;
 }
 
-.card-border-approved {
-    border-left: 4px solid #00C27A;
-}
-
-.card-border-rejected {
-    border-left: 4px solid #EF4444;
-}
-
-.card-border-review {
-    border-left: 4px solid #F5A623;
-}
-
 .page-header-flex {
     display: flex;
     justify-content: space-between;
@@ -155,30 +143,6 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-}
-
-.status-badge-review {
-    background-color: #fffbeb;
-    color: #d97706;
-    border: 1px solid #fef3c7;
-    font-size: 0.75rem;
-    font-weight: 600;
-}
-
-.status-badge-approved {
-    background-color: #f0fdf4;
-    color: #16a34a;
-    border: 1px solid #dcfce7;
-    font-size: 0.75rem;
-    font-weight: 600;
-}
-
-.status-badge-rejected {
-    background-color: #fef2f2;
-    color: #dc2626;
-    border: 1px solid #fecaca;
-    font-size: 0.75rem;
-    font-weight: 600;
 }
 
 .btn-toggle-view {
